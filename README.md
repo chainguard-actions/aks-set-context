@@ -8,6 +8,7 @@ Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at
 
 | Version | Tag | Upstream commit |
 |---------|-----|-----------------|
+| v4.0.1 | [`v4.0.1`](https://github.com/chainguard-actions/aks-set-context/tree/v4.0.1) | — |
 | v4.0.3 | [`v4.0.3`](https://github.com/chainguard-actions/aks-set-context/tree/v4.0.3) | — |
 
 ## Privacy
