@@ -8,11 +8,11 @@ Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at
 
 | Version | Tag | Upstream commit |
 |---------|-----|-----------------|
-| v4.0.0 | [`v4.0.0`](https://github.com/chainguard-actions/aks-set-context/tree/v4.0.0) | — |
-| v4.0.1 | [`v4.0.1`](https://github.com/chainguard-actions/aks-set-context/tree/v4.0.1) | — |
-| v4.0.2 | [`v4.0.2`](https://github.com/chainguard-actions/aks-set-context/tree/v4.0.2) | — |
-| v4.0.3 | [`v4.0.3`](https://github.com/chainguard-actions/aks-set-context/tree/v4.0.3) | — |
-| v5.0.0 | [`v5.0.0`](https://github.com/chainguard-actions/aks-set-context/tree/v5.0.0) | — |
+| v4.0.0 | [`v4.0.0`](https://github.com/chainguard-actions/azure--aks-set-context/tree/v4.0.0) | — |
+| v4.0.1 | [`v4.0.1`](https://github.com/chainguard-actions/azure--aks-set-context/tree/v4.0.1) | — |
+| v4.0.2 | [`v4.0.2`](https://github.com/chainguard-actions/azure--aks-set-context/tree/v4.0.2) | — |
+| v4.0.3 | [`v4.0.3`](https://github.com/chainguard-actions/azure--aks-set-context/tree/v4.0.3) | — |
+| v5.0.0 | [`v5.0.0`](https://github.com/chainguard-actions/azure--aks-set-context/tree/v5.0.0) | — |
 
 ## Privacy
 
