@@ -1,4 +1,4 @@
-name: Test basic usage with required inputs
+name: Test basic AKS set context inputs
 on:
   workflow_dispatch:
 jobs:
@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-
       - id: action
         uses: .
         continue-on-error: true
@@ -18,17 +17,15 @@ jobs:
           use-kubelogin: false
           public-fqdn: false
           resource-type: Microsoft.ContainerService/managedClusters
-
-      - name: Assert action ran (expected to fail without real Azure credentials)
+      - name: Assert action ran (expected failure without Azure credentials)
         env:
           OUTCOME: ${{ steps.action.outcome }}
         run: |
           echo "action outcome: $OUTCOME"
-          # Without real Azure credentials the action will fail — that is expected.
-          # What we verify is that the action was invoked and produced an outcome
-          # (either 'success' or 'failure'), not that it was skipped or cancelled.
+          # Without real Azure credentials the action is expected to fail.
+          # We just verify it ran (outcome is success or failure, not skipped/cancelled).
           if [ "$OUTCOME" = "skipped" ] || [ "$OUTCOME" = "cancelled" ]; then
-            echo "FAIL: action was $OUTCOME — it should have been invoked"
+            echo "FAIL: action was skipped or cancelled unexpectedly"
             exit 1
           fi
-          echo "PASS: action was invoked (outcome=$OUTCOME)"
+          echo "PASS: action ran with expected outcome ($OUTCOME)"
