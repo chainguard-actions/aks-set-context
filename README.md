@@ -1,18 +1,18 @@
-# Azure/aks-set-context
+# azure/aks-set-context
 
 Sets the kubeconfig on the machine to communicate with the Azure Kubernetes cluster.
 
-Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at [https://github.com/Azure/aks-set-context](https://github.com/Azure/aks-set-context).
+Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at [https://github.com/azure/aks-set-context](https://github.com/azure/aks-set-context).
 
 ## Versions
 
 | Version | Tag | Upstream commit |
 |---------|-----|-----------------|
-| v4.0.0 | [`v4.0.0`](https://github.com/chainguard-actions/Azure-aks-set-context/tree/v4.0.0) | — |
-| v4.0.1 | [`v4.0.1`](https://github.com/chainguard-actions/Azure-aks-set-context/tree/v4.0.1) | — |
-| v4.0.2 | [`v4.0.2`](https://github.com/chainguard-actions/Azure-aks-set-context/tree/v4.0.2) | — |
-| v4.0.3 | [`v4.0.3`](https://github.com/chainguard-actions/Azure-aks-set-context/tree/v4.0.3) | — |
-| v5.0.0 | [`v5.0.0`](https://github.com/chainguard-actions/Azure-aks-set-context/tree/v5.0.0) | — |
+| v4.0.0 | [`v4.0.0`](https://github.com/chainguard-actions/azure-aks-set-context/tree/v4.0.0) | — |
+| v4.0.1 | [`v4.0.1`](https://github.com/chainguard-actions/azure-aks-set-context/tree/v4.0.1) | — |
+| v4.0.2 | [`v4.0.2`](https://github.com/chainguard-actions/azure-aks-set-context/tree/v4.0.2) | — |
+| v4.0.3 | [`v4.0.3`](https://github.com/chainguard-actions/azure-aks-set-context/tree/v4.0.3) | — |
+| v5.0.0 | [`v5.0.0`](https://github.com/chainguard-actions/azure-aks-set-context/tree/v5.0.0) | — |
 
 ## Privacy
 
